@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+
+body {
+  background: url('img.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-color: #000;
+  background-size: cover;
+  height: 100vh;
+}
+
+.project-body{
+  height: fit-content;
+}
+nav{
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  align-items: center;
+  margin-bottom: 0px;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+
+section {
+  width: 100%;
+  padding: 20px;
+}
+section iframe {
+  width : 60%;
+}
+
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  text-align: center;
+  padding-top: 23px;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: white !important;
+}
+
+.submit-button{
+  color: black;
+}
+
+
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: none;
+  color: black;
+}
+
+.btns button:last-child:hover{
+  background: white;
+  color: black;
+}
+
+.center .btns button a{
+  text-decoration: none;
+}
+
+#linkedin-link{
+  white-space: nowrap;
+}
+
+.projects-button{
+  background: black !important;
+  border: 1px solid white !important;
+}
+
+.foot{
+    background-image: url("back.jpg");
+    background-size: 5%;
+    background-color: gray;
+    background-blend-mode: multiply;
+    padding-bottom: 1px;
+    color:white;
+
+}
+
+.certificates{
+  display: flex;
+}
+
+.gallery {
+
+margin: 0 auto;
+}
+
+.gallery:hover {
+cursor: pointer;
+border-radius: 10px;
+box-shadow: 10px -10px grey;
+border: 1px solid #777;
+}
+
+.gallery img {
+width: 300px;
+height: 150px;
+}
+
+.gallery .description {
+padding: 10px;
+text-align: center;
+}
+
+.new{
+  color:white;
+}
+
+.main{
+  display: flex;
+}
+  
+
+.info{
+  width : 90%;
+  font-size: 1rem;
+}
+
+.photo{
+  width : 100%;
+}
+
+.photo img { 
+  width: 40%;
+}
+
+@media only screen and (max-width: 992px) {
+  /* .center {
+    padding-top: 0px;
+    text-align: center;
+    position: relative;
+    height: 100%;
+  }
+
+  nav .menu {
+    justify-content: end;
+  }
+
+  .main{
+    display : block;
+  }
+
+  .info, .photo {
+    padding: 10px;
+  }
+
+  .first-list{
+    display: none !important;
+  }
+
+
+  .center .btns button {
+    display: block;
+    margin: 30px auto;
+  }
+
+  .info, .photo {
+    width: 100%;
+    padding : 10px 0px;
+  }
+
+  .certificates {
+    display: block;
+  }
+
+  .gallery {
+    padding: 10px;
+  }
+  .success {
+color:white;
+float: left;
+} */
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+  /* .center {
+    padding-top: 50px;
+  }
+  .menu{
+    display: block;
+    width: 100%; 
+  }
+  .menu ul{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .menu ul li {
+    padding: 10px;
+  }
+  .menu .first-list{
+    display: none !important;
+  }
+
+  section {
+    width: 100%;
+    padding: 20px;
+  }
+  section iframe {
+    width : 100%;
+  } */
+
+}  
